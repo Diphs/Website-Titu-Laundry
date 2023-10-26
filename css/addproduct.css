@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+.form-input {
+    margin: auto;
+    width: 100%;
+
+    /* border: 1px solid #333333; */
+}
+
+.form-input h5 {
+    margin: auto;
+    width: 100%;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 24px;
+    margin-top: 68px;
+}
+
+.form-input .simpan-btn {
+    width: 100%;
+    height: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    background: #2F80ED;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-input .simpan-btn:hover {
+    background-color: #1366D6;
+    transition: 0.4s;
+}
+
+.form-input .kembali-btn:hover {
+    background-color: rgba(47, 128, 237, 0.16);
+    transition: 0.4s;
+}
+
+.form-input .data-action .btnhapus:hover {
+    background-color: rgba(235, 87, 87, 0.16);
+    transition: 0.4s;
+}
+
+.form-input .kembali-btn {
+    width: 100%;
+    height: 52px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #2F80ED;
+    outline: none;
+    color: #2F80ED;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form-input .tombol {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-input .tomboledit {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-input .tomboledit button, .data-action {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: calc(100% / 3 - 10px);
+    /* margin-top: 24px; */
+    /* margin-bottom: 32px; */
+}
+
+.form-input .tomboledit .data-action .btnhapus {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.form-input .tombol button {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: calc(100% / 2 - 10px);
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.form-input .data-action .btnhapus {
+    margin-top: auto;
+    width: 100%;
+    height: 52px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #EB5757;
+    outline: none;
+    color: #EB5757;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.form-input input {
+    width: 100%;
+    height: 56px;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid #D2D2D2;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+}
+
+.form-input span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #4F4F4F;
+}
+
+.form-input textarea {
+    width: 100%;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #E0E0E0;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 24px;
+    padding-left: 16px;
+    padding-top: 16px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+  }
+
+.form-input .file-input {
+    display: flex;
+    height: 72px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    color: dimgray;
+    border: 1.8px dashed #E0E0E0;
+    cursor: pointer;
+}
+
+.form-input input[type="date"]::-webkit-calendar-picker-indicator {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    border-radius: 2px;
+    margin-right: 16px;
+}
+
+.form-input .uploadgbr form {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    color: dimgray;
+    border: 1.8px dashed #E0E0E0;
+    cursor: pointer;
+}
+  
+  input[type=file] {
+    width: 350px;
+    max-width: 100%;
+    color: #444;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    border: 1px solid #555;
+  }
+  
+  input[type=file]::file-selector-button {
+    margin-right: 16px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: #2F80ED;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: background .2s ease-in-out;
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #0d45a5;
+  }

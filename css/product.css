@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 25px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b3b3b3;
+  }
+
+.dash-content .modal-content {
+
+    top: 50%;
+    width: 420px;
+    padding: 20px 30px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0, 15);
+    border-radius: 8px;
+    border: none;
+    align-content: center;
+    justify-items: center;
+}
+
+.dash-content .modal-content .modal-header h5 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    color: #333333;
+    margin-bottom: 16px;
+}
+
+.dash-content .modal-content .simpan-btn {
+    width: 100%;
+    height: 52px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    background: #2F80ED;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    color: #FFFFFF;
+}
+
+.dash-content .modal-content .simpan-btn:hover {
+    background-color: #1366D6;
+    transition: 0.4s;
+}
+
+.dash-content .modal-content .kembali-btn:hover {
+    background-color: rgba(47, 128, 237, 0.16);
+    transition: 0.4s;
+}
+
+.dash-content .modal-content .kembali-btn {
+    width: 100%;
+    height: 52px;
+    margin-bottom: 16px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #2F80ED;
+    outline: none;
+    color: #2F80ED;
+}
+
+.dash-content .modal-content input {
+    width: 100%;
+    height: 52px;
+    border-radius: 8px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    border: 1px solid #E0E0E0;
+    outline: none;
+    margin-bottom: 16px;
+    padding-left: 16px;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+}
+
+.wrapper form {
+    display: flex;
+    height: 100px;
+    width: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    color: dimgray;
+    border: 1.8px dashed #E0E0E0;
+    cursor: pointer;
+}
+
+.wrapper form:hover {
+    background-color: #e9f0ff;
+    transition: 0.4s;
+}
+
+.wrapper .file-input {
+    position: fixed;
+    margin-top: 20px;
+    min-height: 100px;
+    max-width: 360px;
+    opacity: 0;
+}
+
+.wrapper form i {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+section .row {
+    background: #e9f0ff;
+    list-style: none;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .row i {
+    color: #2F80ED;
+    font-size: 20px;
+}
+
+section .details span {
+    font-size: 14px;
+}
+
+.progress-area .row .content {
+    width: 100%;
+    margin-left: 15px;
+}
+
+/* .progress-area .row i {
+    margin-top: 40px;
+} */
+
+.progress-area .details {
+    height: 6px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 7px;
+    justify-content: space-between;
+}
+
+.progress-area .progress-bar {
+    height: 6px;
+    width: 100%;
+    background: #FFFFFF;
+    margin-bottom: 4px;
+    border-radius: 30px;
+}
+
+.progress-bar .progress {
+    height: 100%;
+    width: 0%;
+    background: #2F80ED;
+    border-radius: inherit;
+}
+
+.uploaded-area {
+    max-height: 156px;
+    overflow-y: scroll;
+}
+
+.uploaded-area.onprogress{
+    max-height: 150px;
+  }
+
+.uploaded-area::-webkit-scrollbar {
+    width: 0px;
+}
+
+.uploaded-area .row .content {
+    display: flex;
+    align-items: center;
+}
+
+.uploaded-area .row .details {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+.uploaded-area .uil-check {
+    color: #2F80ED;
+    font-size: 24px;
+}
+
+.uploaded-area .details .size {
+    font-size: 12px;
+    color: dimgray;
+}
+
+.message {
+    display: block;
+    background: #2F80ED;
+    padding: 1.5rem 1rem;
+    font-size: 2rem;
+    color: #333333;
+    margin-bottom: 2rem;
+}
