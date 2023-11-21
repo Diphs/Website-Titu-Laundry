@@ -8,6 +8,8 @@ Ini adalah Website pengelola Laundry
 
 Dibuat oleh : Romu2ah TIm
 
+Link aplikasi Mobile Titu Laundry : https://github.com/Diphs/Mobile-Titu-Laundry.git
+
 Terdapat : 
 - Dashboard
   ![image](https://github.com/Diphs/Website-Titu-Laundry/assets/100171465/76066be0-c7d9-456c-b81f-653086953948)
