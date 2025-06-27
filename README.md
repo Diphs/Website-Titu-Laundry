@@ -6,7 +6,7 @@ Ini adalah Website pengelola Laundry
 - Menggunakan CSS
 - Menggunakan JS
 
-Dibuat oleh : Romu2ah TIm
+Dibuat oleh : Romu2ah Tim
 
 Link aplikasi Mobile Titu Laundry : https://github.com/Diphs/Mobile-Titu-Laundry.git
 
